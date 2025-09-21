@@ -1,3 +1,18 @@
 # Ignore property files containing secrets
 stripe-payment-provider-f1/src/main/resources/*.properties
 payments-processing-service-f1/src/main/resources/*.properties
+
+# Eclipse IDE files
+.metadata/
+.settings/
+.classpath
+.project
+.factorypath
+
+# SonarLint files
+.sonarlint/
+
+# Maven wrapper
+# mvnw
+# mvnw.cmd
+
