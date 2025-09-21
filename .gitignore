@@ -1,0 +1,3 @@
+# Ignore property files containing secrets
+stripe-payment-provider-f1/src/main/resources/*.properties
+payments-processing-service-f1/src/main/resources/*.properties
