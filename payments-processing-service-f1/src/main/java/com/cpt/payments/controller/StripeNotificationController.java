@@ -57,8 +57,7 @@ public class StripeNotificationController {
 
 		System.out.println("Incoming |sigHeader:" + sigHeader);
 
-		// String endpointSecret =
-		// "whsec_119caa78b84e319330b5b2b44f2804a10aee0c031dd3eeebf8a074b942290dac";
+		// String endpointSecret = "";
 
 		try {
 			Webhook.constructEvent(reqAsString, sigHeader, endpointSecret);
